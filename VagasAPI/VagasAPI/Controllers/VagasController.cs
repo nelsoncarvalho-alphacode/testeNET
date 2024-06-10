@@ -40,7 +40,7 @@ namespace VagasAPI.Controllers
             return Ok(criarVaga);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(VagaEdicaoDto vaga)
         {
