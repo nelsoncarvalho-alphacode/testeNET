@@ -2,21 +2,30 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using VagasAPI.Data;
+using VagasAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddScoped<IVagaService, VagaService>();
+builder.Services.AddScoped<IInscricaoService, InscricaoService>();
+
+builder.Services.AddDbContext<UserDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//{
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+//});
 
 builder.Services.AddAuthorization();
 
 builder.Services.AddIdentityApiEndpoints<IdentityUser>()
     .AddRoles<IdentityRole>()
-    .AddEntityFrameworkStores<AppDbContext>();
+    .AddEntityFrameworkStores<UserDbContext>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -95,9 +104,11 @@ using (var scope = app.Services.CreateScope())
 
     if(await userManager.FindByEmailAsync(email) == null)
     {
-        var user = new IdentityUser();
-        user.UserName = email;
-        user.Email = email;
+        var user = new IdentityUser
+        {
+            UserName = email,
+            Email = email
+        };
         await userManager.CreateAsync(user, password);
 
         await userManager.AddToRoleAsync(user, "Admin");
