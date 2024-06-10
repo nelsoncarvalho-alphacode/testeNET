@@ -8,7 +8,7 @@ namespace VagasAPI.Models
         public string Titulo { get; set; }
         public string Descricao { get; set; }
         public TipoVaga Tipo { get; set; }
-        public bool Status { get; set; } = true;
+        public bool StatusVaga { get; set; }
 
     }
     public enum TipoVaga

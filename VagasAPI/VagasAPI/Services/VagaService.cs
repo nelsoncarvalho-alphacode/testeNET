@@ -67,7 +67,7 @@ namespace VagasAPI.Services
                     Titulo = vagaDto.Titulo,
                     Descricao = vagaDto.Descricao,
                     Tipo = vagaDto.Tipo,
-                    Status = vagaDto.Status
+                    StatusVaga = vagaDto.StatusVaga
                 };
                 _context.Vagas.Add(vaga);
                 await _context.SaveChangesAsync();
@@ -98,7 +98,7 @@ namespace VagasAPI.Services
                 vagaExistente.Titulo = vaga.Titulo;
                 vagaExistente.Descricao = vaga.Descricao;
                 vagaExistente.Tipo = vaga.Tipo;
-                vagaExistente.Status = vaga.Status;
+                vagaExistente.StatusVaga = vaga.StatusVaga;
 
                 _context.Update(vagaExistente);
                 await _context.SaveChangesAsync();

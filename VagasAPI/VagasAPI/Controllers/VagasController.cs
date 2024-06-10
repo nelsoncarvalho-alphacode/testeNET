@@ -18,21 +18,21 @@ namespace VagasAPI.Controllers
             _vagaService = vagaService;
         }
 
-        [HttpGet]
+        [HttpGet("ListarVagas")]
         public async Task<IActionResult> GetAll()
         {
             var response = await _vagaService.GetAllAsync();
             return Ok(response);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("BuscarVaga/{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var response = await _vagaService.GetByIdAsync(id);
             return Ok(response);
         }
 
-        [HttpPost]
+        [HttpPost("CriarVaga")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(VagaCriacaoDto vaga)
         {
@@ -40,7 +40,7 @@ namespace VagasAPI.Controllers
             return Ok(criarVaga);
         }
 
-        [HttpPut]
+        [HttpPut("EditarVaga")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(VagaEdicaoDto vaga)
         {
@@ -48,7 +48,7 @@ namespace VagasAPI.Controllers
             return Ok(editarVaga);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("ExcluirVaga/{id}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {

@@ -6,7 +6,7 @@ namespace VagasAPI.Dto.Vaga
     {
         public string Titulo { get; set; }
         public string Descricao { get; set; }
-        public bool Status { get; internal set; }
+        public bool StatusVaga { get; set; }
         public TipoVaga Tipo { get; set; }
     }
 }

@@ -14,9 +14,20 @@ namespace VagasAPI.Data
         public DbSet<InscricaoModel> Inscricoes { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder); // Adicione esta linha
+            base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<IdentityUserLogin<string>>().HasKey(x => x.UserId);
+
+            modelBuilder.Entity<InscricaoModel>()
+                .HasOne(i => i.User)
+                .WithMany()
+                .HasForeignKey(i => i.UserId)
+                .IsRequired();
+
+            modelBuilder.Entity<InscricaoModel>()
+                .HasOne(i => i.Vaga)
+                .WithMany()
+                .HasForeignKey(i => i.VagaId);
         }
     }
 }
