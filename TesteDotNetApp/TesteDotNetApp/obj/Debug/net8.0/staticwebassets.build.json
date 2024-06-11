@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VTfVfTTTjU/5MAKZYFRmA/2AgHZi0IZIp7u96h28sLo=",
+  "Source": "TesteDotNetApp",
+  "BasePath": "_content/TesteDotNetApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

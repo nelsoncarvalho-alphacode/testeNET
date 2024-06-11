@@ -1,61 +1,41 @@
-# Teste para candidatos à vaga de Desenvolvedor .NET
+# Aplicação
 
-Olá caro desenvolvedor, nesse teste analisaremos seu conhecimento geral e inclusive velocidade de desenvolvimento. Abaixo explicaremos tudo o que será necessário.
+## Lado do Candidato:
 
-## Instruções
+Os candidatos se registram na plataforma ao se inscreverem na primeira vaga disponível. Seus dados são armazenados no banco de dados e localmente usando o localStorage, permitindo que eles se inscrevam em outras vagas posteriormente. Se decidirem sair, o sistema estará pronto para receber novos cadastros de candidatos.
 
-O desafio consiste em implementar uma aplicação web utilizando .NET, um banco de dados relacional (SQL Server, Mysql, PostgreSQL ou SQLite), que terá como finalidade a inscrição de candidatos a uma oportunidade de emprego.
+## Lado do Administrador (ADM):
 
-Sua aplicação deve possuir:
+- emailPadrao = "adm@teste";
+- const senhaPadrao = "adm1234";
 
-- CRUD de vagas:
-  - Criar, editar, excluir e listar vagas.
-  - A vaga pode ser CLT, Pessoa Jurídica ou Freelancer.
-- CRUD de candidatos:
-  - Criar, editar, excluir e listar candidatos.
-- Um cadidato pode se inscrever em uma ou mais vagas.
-- Deve ser ser possível "pausar" a vaga, evitando a inscrição de candidatos.
-- Cada CRUD:
-  - Deve ser filtrável e ordenável por qualquer campo, e possuir paginação de 20 itens.
-  - Deve possuir formulários para criação e atualização de seus itens.
-  - Deve permitir a deleção de qualquer item de sua lista.
-  - Implementar validações de campos obrigatórios e tipos de dados.
+Ao acessar a tela de login, o administrador tem acesso a um painel onde pode visualizar e gerenciar todos os candidatos. Isso inclui funcionalidades como edição, exclusão e filtragem de candidatos. Da mesma forma, a lista de vagas também é gerenciável, permitindo que o administrador edite, exclua, filtre e crie novas vagas.
 
-## Banco de dados
+# Banco de Dados
 
-- Você pode criar a modelagem e implementar as validações necessárias da camada da forma que julgar melhor.
+- Faça o backup do banco de dados, o arquivo está disponível no wentrasnfe com o nome de TesteDotNet.bak
+- Link https://we.tl/t-JyMx4KqCIA
 
-## Tecnologias a serem utilizadas
+# Instruções
 
-Devem ser utilizadas as seguintes tecnologias:
+## FRONT END
 
+- Acesse a pasta TestDotNet-frontend
+- Abra o terminal e atualize o package usando o comando npm install
+- Rode a aplicação usando o comando npm run dev
+- O front está ok
+
+## BACK END
+
+- Acesse a pasta TesteDotNetApp
+- Abra o terminal e execute o comando dotnet build
+- No Program.cs ajuste a sua connectionString para o banco SQL server
+
+# Tecnologias Utilizadas
+
+- REACT JS
 - HTML
 - CSS
-- Javascript
-- .NET (Framework Opcional: ASP.NET Core)
-- Docker (construção do ambiente de desenvolvimento)
-- SQL Server, Mysql, PostgreSQL ou SQLite
-
-## Entrega
-
-- Para iniciar o teste, faça um fork deste repositório; **Se você apenas clonar o repositório não vai conseguir fazer push.**
-- Crie uma branch com o seu nome completo;
-- Altere o arquivo teste-net.md com as informações necessárias para executar o seu teste (comandos, instalações, etc);
-- Depois de finalizado, envie-nos o pull request;
-
-## Bônus
-
-- API Rest JSON para todos os CRUDS listados acima.
-- Permitir deleção em massa de itens nos CRUDs.
-- Permitir que o usuário mude o número de itens por página.
-- Implementar autenticação de usuário na aplicação.
-
-## O que iremos analisar
-
-- Organização do código;
-- Conhecimento de padrões (SOLID, design patterns);
-- Separação de módulos e componentes;
-- Legibilidade;
-- Tratamento de erros;
-
-### Boa sorte!
+- JavaScript
+- .NET
+- SQL Server
