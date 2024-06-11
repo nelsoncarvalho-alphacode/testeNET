@@ -1,0 +1,21 @@
+﻿@page
+@using VagasForDevs.Services.Interfaces;
+@using VagasForDevs.Models;S
+
+@inject IVagaService vagaService;
+
+
+
+@{
+    int id = int.Parse(Request.Query["Id"]);
+
+    Vaga vaga = vagaService.GetVagaById(id);
+    vagaService.Delete(vaga.Id);
+
+
+    Response.Redirect("Index");
+}
+
+
+
+
