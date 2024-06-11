@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\testedotnetapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\testedotnetapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\repository\\vagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\repository\\vagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\repository\\candidatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\repository\\candidatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\controllers\\candidatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\controllers\\candidatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\controllers\\vagacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\controllers\\vagacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\models\\vaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\models\\vaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\dtos\\createativarvagadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\dtos\\createativarvagadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\mapping\\candidatomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\mapping\\candidatomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\interface\\icandidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\interface\\icandidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\mapping\\vagamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\mapping\\vagamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\interface\\ivaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\interface\\ivaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|d:\\testedotnet\\testenet\\testedotnetapp\\testedotnetapp\\models\\candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB48D8-7AF7-4108-9B23-C50A53D68ABD}|TesteDotNetApp\\TesteDotNetApp.csproj|solutionrelative:testedotnetapp\\models\\candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateVagaViewModelDados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoVagaViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCadastroCandidatoViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TesteDotNetApp.http",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\TesteDotNetApp.http",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\TesteDotNetApp.http",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\TesteDotNetApp.http",
+              "RelativeToolTip": "TesteDotNetApp\\TesteDotNetApp.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-11T15:06:14.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateAtivarVagaDTO.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\DTOs\\CreateAtivarVagaDTO.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\DTOs\\CreateAtivarVagaDTO.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\DTOs\\CreateAtivarVagaDTO.cs",
+              "RelativeToolTip": "TesteDotNetApp\\DTOs\\CreateAtivarVagaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:03:24.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CandidatoMap.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Mapping\\CandidatoMap.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Mapping\\CandidatoMap.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Mapping\\CandidatoMap.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Mapping\\CandidatoMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:40:44.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VagaRepository.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Repository\\VagaRepository.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Repository\\VagaRepository.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Repository\\VagaRepository.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Repository\\VagaRepository.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAqwFQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:06:17.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VagaMap.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Mapping\\VagaMap.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Mapping\\VagaMap.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Mapping\\VagaMap.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Mapping\\VagaMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:40:36.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Program.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Program.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Program.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:14:34.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CandidatoController.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Controllers\\CandidatoController.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Controllers\\CandidatoController.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Controllers\\CandidatoController.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Controllers\\CandidatoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:02:29.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CandidatoRepository.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Repository\\CandidatoRepository.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Repository\\CandidatoRepository.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Repository\\CandidatoRepository.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Repository\\CandidatoRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAewDsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:19:07.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VagaController.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Controllers\\VagaController.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Controllers\\VagaController.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Controllers\\VagaController.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Controllers\\VagaController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:17:59.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICandidato.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Interface\\ICandidato.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Interface\\ICandidato.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Interface\\ICandidato.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Interface\\ICandidato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:10:52.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:13:06.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vaga.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Models\\Vaga.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Models\\Vaga.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Models\\Vaga.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Models\\Vaga.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwBkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:06:21.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Candidato.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Models\\Candidato.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Models\\Candidato.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Models\\Candidato.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Models\\Candidato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:28:19.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateVagaViewModelDados.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateVagaViewModelDados.cs",
+              "RelativeDocumentMoniker": "..\\..\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateVagaViewModelDados.cs",
+              "ToolTip": "D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateVagaViewModelDados.cs",
+              "RelativeToolTip": "..\\..\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateVagaViewModelDados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:06:34.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IVaga.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Interface\\IVaga.cs",
+              "RelativeDocumentMoniker": "TesteDotNetApp\\Interface\\IVaga.cs",
+              "ToolTip": "D:\\TesteDotNet\\testeNET\\TesteDotNetApp\\TesteDotNetApp\\Interface\\IVaga.cs",
+              "RelativeToolTip": "TesteDotNetApp\\Interface\\IVaga.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:02:52.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateCandidatoVagaViewModel.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoVagaViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoVagaViewModel.cs",
+              "ToolTip": "D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoVagaViewModel.cs",
+              "RelativeToolTip": "..\\..\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoVagaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:25:07.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateCandidatoViewModel.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoViewModel.cs",
+              "ToolTip": "D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoViewModel.cs",
+              "RelativeToolTip": "..\\..\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCandidatoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:03:33.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateCadastroCandidatoViewModel.cs",
+              "DocumentMoniker": "D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCadastroCandidatoViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCadastroCandidatoViewModel.cs",
+              "ToolTip": "D:\\TesteDotNet\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCadastroCandidatoViewModel.cs",
+              "RelativeToolTip": "..\\..\\TesteDotNetApp\\TesteDotNetApp\\ViewModel\\CreateCadastroCandidatoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:44:17.483Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
