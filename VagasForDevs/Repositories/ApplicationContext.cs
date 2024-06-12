@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore;
 using VagasForDevs.Models;
 
 namespace Vagas.Repositories
@@ -21,7 +22,31 @@ namespace Vagas.Repositories
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            //RELAÇÕES [(CANDIDATURA - USUARIO), (CANDIDATURA - PERFIL)] -> MUITOS PARA MUITOS
+            modelBuilder.Entity<Candidatura>()
+                .HasOne(candidatura => candidatura.Usuario)
+                .WithMany(usuario => usuario.Candidaturas)
+                .HasForeignKey(candidatura => candidatura.Id_Usuario);
+
+            modelBuilder.Entity<Candidatura>()
+                .HasOne(candidatura => candidatura.Vaga)
+                .WithMany(vaga => vaga.Candidaturas)
+                .HasForeignKey(candidatura => candidatura.Id_Vaga);
+
+
+            //RELAÇÕES [(USUARIO - PERFILUSUARIO)] -> UM PARA MUITOS
+            modelBuilder.Entity<Usuario>()
+                .HasOne(usuario => usuario.Perfil)
+                .WithMany()
+                .HasForeignKey(usuario => usuario.Id_Perfil);
+
+
+            //RELAÇÃO [(VAGA - PERFILVAGA)] -> UM PRA MUITOS
+            modelBuilder.Entity<Vaga>()
+                .HasOne(vaga => vaga.Perfil)
+                .WithMany()
+                .HasForeignKey(vaga => vaga.Id_Perfil);
+            
         }
     }
 }

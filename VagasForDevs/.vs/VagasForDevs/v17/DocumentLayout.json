@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Workspace\\VagasForDevs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|d:\\workspace\\vagasfordevs\\pages\\vagas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|solutionrelative:pages\\vagas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|d:\\workspace\\vagasfordevs\\pages\\candidato\\vagas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|solutionrelative:pages\\candidato\\vagas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|d:\\workspace\\vagasfordevs\\pages\\vagas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|solutionrelative:pages\\vagas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|d:\\workspace\\vagasfordevs\\pages\\candidato\\vagas\\vagascandidatadas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|solutionrelative:pages\\candidato\\vagas\\vagascandidatadas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|d:\\workspace\\vagasfordevs\\repositories\\vagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|solutionrelative:repositories\\vagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|d:\\workspace\\vagasfordevs\\pages\\candidato\\vagas\\remover.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|solutionrelative:pages\\candidato\\vagas\\remover.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|d:\\workspace\\vagasfordevs\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F315D8-1A04-44D3-A446-3810318C649A}|VagasForDevs.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VagaRepository.cs",
-              "DocumentMoniker": "D:\\Workspace\\VagasForDevs\\Repositories\\VagaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\VagaRepository.cs",
-              "ToolTip": "D:\\Workspace\\VagasForDevs\\Repositories\\VagaRepository.cs",
-              "RelativeToolTip": "Repositories\\VagaRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Workspace\\VagasForDevs\\Pages\\Candidato\\Vagas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Candidato\\Vagas\\Index.cshtml",
+              "ToolTip": "D:\\Workspace\\VagasForDevs\\Pages\\Candidato\\Vagas\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Candidato\\Vagas\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T02:50:33.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Workspace\\VagasForDevs\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Workspace\\VagasForDevs\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T21:04:11.495Z",
+              "WhenOpened": "2024-06-12T02:47:12.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Remover.cshtml",
+              "DocumentMoniker": "D:\\Workspace\\VagasForDevs\\Pages\\Candidato\\Vagas\\Remover.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Candidato\\Vagas\\Remover.cshtml",
+              "ToolTip": "D:\\Workspace\\VagasForDevs\\Pages\\Candidato\\Vagas\\Remover.cshtml",
+              "RelativeToolTip": "Pages\\Candidato\\Vagas\\Remover.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T02:44:36.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Workspace\\VagasForDevs\\Pages\\Vagas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Vagas\\Index.cshtml",
-              "ToolTip": "D:\\Workspace\\VagasForDevs\\Pages\\Vagas\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Vagas\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAZAAAA",
+              "Title": "VagasCandidatadas.cshtml",
+              "DocumentMoniker": "D:\\Workspace\\VagasForDevs\\Pages\\Candidato\\Vagas\\VagasCandidatadas.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Candidato\\Vagas\\VagasCandidatadas.cshtml",
+              "ToolTip": "D:\\Workspace\\VagasForDevs\\Pages\\Candidato\\Vagas\\VagasCandidatadas.cshtml",
+              "RelativeToolTip": "Pages\\Candidato\\Vagas\\VagasCandidatadas.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T20:43:59.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Workspace\\VagasForDevs\\Pages\\Vagas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Vagas\\Delete.cshtml",
-              "ToolTip": "D:\\Workspace\\VagasForDevs\\Pages\\Vagas\\Delete.cshtml",
-              "RelativeToolTip": "Pages\\Vagas\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T20:37:37.361Z",
+              "WhenOpened": "2024-06-12T02:42:16.732Z",
               "EditorCaption": ""
             }
           ]

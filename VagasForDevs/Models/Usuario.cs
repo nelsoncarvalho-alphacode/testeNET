@@ -11,8 +11,9 @@ public class Usuario
     public string CPF { get; set; } = string.Empty;
     public int Id_Perfil { get; set; }
 
-    //propriedade de navegação 
+    public virtual List<Candidatura> Candidaturas { get; set; }
+
     [ForeignKey("Id_Perfil")]
-    public virtual PerfilUsuario Perfil { get; set; } = new PerfilUsuario();
+    public virtual PerfilUsuario Perfil { get; set; } 
 
 }

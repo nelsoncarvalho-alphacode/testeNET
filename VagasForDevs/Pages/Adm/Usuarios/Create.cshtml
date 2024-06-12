@@ -1,0 +1,75 @@
+﻿@page
+@model VagasForDevs.Pages.Adm.Usuarios.CreateModel
+
+
+<br />
+<h1>Cadastrar Usuario</h1>
+
+
+<form method="POST">
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Nome Completo</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="Usuario.Nome" />
+        </div>
+    </div>
+
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Senha</label>
+        <div class="col-sm-6">
+            <input type="password" class="form-control" asp-for="Usuario.Senha" />
+        </div>
+    </div>
+
+
+
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Cpf</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="Usuario.CPF" />
+        </div>
+    </div>
+
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">E-mail</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="Usuario.Email" />
+        </div>
+    </div>
+
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Telefone</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="Usuario.Telefone" />
+        </div>
+    </div>
+
+
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Perfil</label>
+        <div class="col-sm-6">
+            <select class="form-control" asp-for="Usuario.Id_Perfil">
+                <option value="">Selecione um perfil</option>
+                <option value="1">Adm</option>
+                <option value="2">Candidato</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="index" role="button">Cancelar</a>
+        </div>
+    </div>
+
+</form>
+

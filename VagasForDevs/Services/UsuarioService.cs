@@ -1,4 +1,6 @@
-﻿using Vagas.Repositories;
+﻿using Castle.Components.DictionaryAdapter;
+using System.Reflection.Metadata.Ecma335;
+using Vagas.Repositories;
 using VagasForDevs.Models;
 using VagasForDevs.Repositories.Interfaces;
 using VagasForDevs.Services.Interfaces;
@@ -19,6 +21,23 @@ public class UsuarioService : IUsuarioService
     {
         _usuarioRepository.Create(usuario);
     }
+    public Usuario GetById(int id)
+    {
+        return _usuarioRepository.GetById(id);
+    }
+
+    public Usuario GetByLogin(string email, string senha)
+    {
+        return _usuarioRepository.GetAllUsers().FirstOrDefault(candidato => candidato.Email == email && candidato.Senha == senha)
+            ?? throw new Exception("Senha e/ou usuário incorreto.");
+    }
+
+
+    public List<Usuario> GetAll()
+    {
+        return _usuarioRepository.GetAll();
+    }
+
 
     public void Delete(int id)
     {
@@ -30,20 +49,14 @@ public class UsuarioService : IUsuarioService
         _usuarioRepository.DeleteAllCandidatos();
     }
 
-    public Usuario? GetByLogin(string email, string senha)
-    {
-        return _usuarioRepository.GetAllUsers().FirstOrDefault(candidato => candidato.Email == email && candidato.Senha == senha);
-    }
-
-    public Usuario Get(int id)
-    {
-        return _usuarioRepository.Get(id);
-    }
 
     public List<Usuario> GetAllUsers()
     {
         return _usuarioRepository.GetAllUsers();
     }
+
+
+    
 
 
 

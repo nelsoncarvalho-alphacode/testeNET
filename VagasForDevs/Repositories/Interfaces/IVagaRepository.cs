@@ -5,11 +5,16 @@ namespace VagasForDevs.Repositories.Interfaces;
 
 public interface IVagaRepository
 {
+    //MÉTODO QUE VAI SALVAR AS ALTERAÇÕES
     public void Commit();
+
+    //OPERAÇÕES CRUD
     void Create(Vaga vaga);
-    void Delete(int id);
+    Vaga GetById(int id);
+    List<Vaga> GetAll();
     void Update(int id, Vaga vagaEdit);
-    void DeleteAllVagas();
-    Vaga GetVagaById(int id);
-    List<Vaga> GetAllVagas();
+    void Delete(int id);
+
+    //OUTRA OPERAÇÕES
+    List<Usuario> GetCandidatos(int id);
 }

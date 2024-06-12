@@ -1,0 +1,38 @@
+﻿@page
+@model VagasForDevs.Pages.Adm.Usuarios.IndexModel
+@{
+}
+
+<br />
+<h1>Lista de usuários</h1>
+<a class="btn btn-primary btn-sm bg-success" href="/Adm/Usuarios/Create">Adicionar Usuário</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Email</th>
+            <th>Cpf</th>
+            <th>Perfil</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model.Usuarios)
+        {
+            <tr>
+                <td>@usuario.Nome</td>
+                <td>@usuario.Telefone</td>
+                <td>@usuario.Email</td>
+                <td>@usuario.CPF</td>
+                <td>@usuario.Perfil.Tipo</td>
+                <td>
+                    <a class="btn btn-primary btn-sm accept-policy" href="/Adm/Usuarios/Edit?id=@usuario.Id">Editar</a>
+                    <a class="btn btn-primary btn-sm accept-policy bg-danger" href="/Adm/Usuarios/Delete?id=@usuario.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

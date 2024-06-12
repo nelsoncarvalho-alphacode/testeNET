@@ -2,8 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using Vagas.Repositories;
 using VagasForDevs.Repositories.Interfaces;
 using VagasForDevs.Repositories;
-using VagasForDevs.Services.Interfaces;
-using VagasForDevs.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,19 +15,14 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddRazorPages();
+builder.Services.AddSession();
 
-// Adicionando serviço de vaga
-builder.Services.AddScoped<IVagaService, VagaService>();
 
 // Adicionando serviço de repository
 builder.Services.AddScoped<IVagaRepository, VagaRepository>();
-
-
-builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-
 builder.Services.AddScoped<IPerfilVagaRepository, PerfilVagaRepository>();
-
+builder.Services.AddScoped<ICandidaturaRepository, CandidaturaRepository>();
 
 
 var app = builder.Build();
@@ -44,14 +37,12 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting(); // Adicione o middleware de roteamento aqui
+app.UseRouting();
 
+app.UseSession();
+    
 app.UseAuthorization();
 
 app.MapRazorPages();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Acesso}/{action=Index}");
 
 app.Run();

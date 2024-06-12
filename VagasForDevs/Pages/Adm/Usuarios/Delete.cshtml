@@ -1,0 +1,12 @@
+﻿@page
+@using VagasForDevs.Models;
+@using VagasForDevs.Repositories.Interfaces;
+@inject IUsuarioRepository UsuarioRepository
+
+@{
+    int id = int.Parse(Request.Query["Id"]);
+    UsuarioRepository.Delete(id);
+
+    Response.Redirect("Index");
+
+}

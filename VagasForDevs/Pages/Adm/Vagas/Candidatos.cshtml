@@ -1,0 +1,35 @@
+﻿@page
+@model VagasForDevs.Pages.Adm.Vagas.CandidatosModel
+
+
+
+<br />
+<h3>Candidatos da vaga: "@Model.Vaga.Descricao"</h3>
+<table class="table">   
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>E-mail</th>
+            <th>Cpf</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var candidato in Model.Candidatos) 
+        {
+            <tr>
+                <td>@candidato.Nome</td>
+                <td>@candidato.Telefone</td>
+                <td>R$@candidato.Email</td>
+                <td>@candidato.CPF</td>
+                <td>
+                    <a class="btn btn-primary btn-sm accept-policy" href="#">Ver perfil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

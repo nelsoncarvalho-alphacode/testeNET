@@ -13,31 +13,32 @@ public class VagaRepository : IVagaRepository
         _context = context;
     }
 
-
+    //OPERAÇÃO PARA SALVAR AS MUDANÇAS NO BANCO
     public void Commit()
     {
         _context.SaveChanges();
     }
 
-
+    //OPERAÇÕES CRUD
     public void Create(Vaga vaga)
     {
         _context.Vaga.Add(vaga);
         Commit();
     }
 
-    public void Delete(int id)
+    public Vaga GetById(int id)
     {
-        Vaga vaga = GetVagaById(id);
-
-        _context.Vaga.Remove(vaga);
-        Commit();
+        return _context.Vaga.First(vaga => vaga.Id == id);
     }
 
+    public List<Vaga> GetAll()
+    {
+        return _context.Vaga.ToList();
+    }
 
     public void Update(int id, Vaga vagaEdit) 
     {
-        Vaga? vagaToBeUpdated = _context.Vaga.Find(id);
+        Vaga vagaToBeUpdated = GetById(id);
 
         if (vagaToBeUpdated != null)
         {
@@ -49,26 +50,22 @@ public class VagaRepository : IVagaRepository
         Commit();
     }
 
-
-
-    public void DeleteAllVagas()
+    public void Delete(int id)
     {
-        List<Vaga> vagas = GetAllVagas();
+        Vaga vaga = GetById(id);
 
-        _context.Vaga.RemoveRange(vagas);
+        _context.Vaga.Remove(vaga);
         Commit();
-
     }
 
 
-    public Vaga GetVagaById(int id)
+    //OUTRAS OPERAÇÕES
+    public List<Usuario> GetCandidatos(int id)
     {
-        return _context.Vaga.First(vaga => vaga.Id == id);
+        Vaga vaga = GetById(id);
+        return vaga.Candidaturas.Select(candidatura => candidatura.Usuario).ToList();
     }
 
-    public List<Vaga> GetAllVagas()
-    {
-        return _context.Vaga.ToList();
-    }
+
 
 }

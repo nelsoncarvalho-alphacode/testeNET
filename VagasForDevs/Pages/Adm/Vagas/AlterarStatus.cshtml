@@ -1,0 +1,26 @@
+﻿@page
+@using VagasForDevs.Repositories.Interfaces;
+@using VagasForDevs.Models;
+@inject IVagaRepository vagaRepository;
+
+
+@{
+    int id = int.Parse(Request.Query["Id"]);
+
+    Vaga vaga = vagaRepository.GetById(id);
+
+    if (vaga.Ativa == false)
+        vaga.Ativa = true;
+
+    else if (vaga.Ativa == true)
+        vaga.Ativa = false;
+
+    vagaRepository.Update(id, vaga);
+
+
+
+    Response.Redirect("Index");
+}
+
+
+

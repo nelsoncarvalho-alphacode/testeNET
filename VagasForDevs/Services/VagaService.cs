@@ -24,30 +24,42 @@ public class VagaService : IVagaService
         _repository.Update(id, vagaEdit);
     }
 
+    public void SwitchStatus(int id)
+    {
+        Vaga vaga = GetVagaById(id);
+
+        if (vaga.Ativa)
+            vaga.Ativa = false;
+
+        else if (!vaga.Ativa)
+            vaga.Ativa = true;
+
+        Update(id, vaga);
+    }
+
     public void Delete(int id)
     {
         _repository.Delete(id);
     }
-
-    public void DeleteAllVagas()
-    {
-        _repository.DeleteAllVagas();
-    }
-
-    public Vaga GetVagaById(int id)
+    public Vaga GetById(int id)
     {
        return _repository.GetVagaById(id);
     }
 
-    public List<Vaga> GetAllVagas()
+    public List<Vaga> GetAll()
     {
         return _repository.GetAllVagas();
+    }
+
+    public List<Usuario> GetCandidatos(int id)
+    {
+        Vaga vaga = GetById(id);
+        return vaga.Candidaturas.Select(candidatura => candidatura.Usuario).ToList();
     }
 
 
 
 
-    
 
 
 

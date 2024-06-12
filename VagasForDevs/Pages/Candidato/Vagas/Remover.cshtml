@@ -1,0 +1,21 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.RazorPages;
+@using VagasForDevs.Repositories.Interfaces;
+@using VagasForDevs.Models;
+
+
+@inject ICandidaturaRepository CandidaturaRepository
+@inject IUsuarioRepository UsuarioRepository
+
+@{
+    int idUsuarioLogado = HttpContext.Session.GetInt32("IdLogado") ?? 0;
+    int idVaga = int.Parse(Request.Query["Id"]);
+
+    Candidatura candidatura = CandidaturaRepository.GetByUsuarioVaga(idUsuarioLogado, idVaga);
+    CandidaturaRepository.Delete(candidatura.Id);
+
+
+
+    Response.Redirect("Index");
+
+}

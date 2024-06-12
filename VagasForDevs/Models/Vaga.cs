@@ -10,6 +10,9 @@ public class Vaga
     public bool Ativa { get; set; } = false;
     public decimal Valor { get; set; }
 
+    //Propriedades de navegação 
+    public virtual List<Candidatura> Candidaturas { get; set; } 
+
     [ForeignKey("Id_Perfil")]
-    public virtual PerfilVaga Perfil { get; set;} = new PerfilVaga();
+    public virtual PerfilVaga Perfil { get; set;} 
 }

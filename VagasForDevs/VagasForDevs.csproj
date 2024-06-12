@@ -8,9 +8,17 @@
 
   <ItemGroup>
     <Compile Remove="Pages\NovaPasta\**" />
+    <Compile Remove="Services\**" />
     <Content Remove="Pages\NovaPasta\**" />
+    <Content Remove="Services\**" />
     <EmbeddedResource Remove="Pages\NovaPasta\**" />
+    <EmbeddedResource Remove="Services\**" />
     <None Remove="Pages\NovaPasta\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Adm\Vagas\ConfirmDelete.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

@@ -18,6 +18,62 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Workspace\VagasForDevs
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Workspace/VagasForDevs/Pages/Adm/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFVzdWFyaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Adm/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFVzdWFyaW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Adm/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFVzdWFyaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Adm/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFVzdWFyaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Adm/Vagas/AlterarStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFZhZ2FzXEFsdGVyYXJTdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Adm/Vagas/Candidatos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFZhZ2FzXENhbmRpZGF0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Adm/Vagas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFZhZ2FzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Adm/Vagas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFZhZ2FzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Adm/Vagas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFZhZ2FzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Adm/Vagas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtXFZhZ2FzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Candidato/Vagas/Candidatar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRvXFZhZ2FzXENhbmRpZGF0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Candidato/Vagas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRvXFZhZ2FzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Candidato/Vagas/Remover.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRvXFZhZ2FzXFJlbW92ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/VagasForDevs/Pages/Candidato/Vagas/VagasCandidatadas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRvXFZhZ2FzXFZhZ2FzQ2FuZGlkYXRhZGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Workspace/VagasForDevs/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,22 +88,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Workspace/VagasForDevs/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Workspace/VagasForDevs/Pages/Vagas/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFnYXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Workspace/VagasForDevs/Pages/Vagas/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFnYXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Workspace/VagasForDevs/Pages/Vagas/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFnYXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Workspace/VagasForDevs/Pages/Vagas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFnYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Workspace/VagasForDevs/Pages/_ViewImports.cshtml]

@@ -1,0 +1,52 @@
+﻿@page
+@model VagasForDevs.Pages.Vagas.IndexModel
+
+
+<br />
+<h1>Lista de vagas</h1>
+<a class="btn btn-primary btn-sm bg-success" href="/Adm/Vagas/Create">Adicionar vaga</a>
+<table class="table">   
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Tipo</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var vaga in Model.vagas) 
+        {
+            <tr>
+                <td>@vaga.Id</td>
+                <td>
+                    <a class="text-primary" style="text-decoration: none;" href="/Adm/Vagas/Candidatos?id=@vaga.Id">@vaga.Descricao</a>
+                </td>
+                <td>R$@vaga.Valor</td>
+                <td>@vaga.Perfil.Tipo</td>
+                <td>
+                    <a class="btn btn-primary btn-sm accept-policy" href="/Adm/Vagas/Edit?id=@vaga.Id">Editar</a>
+                    <a class="btn btn-primary btn-sm bg-danger" href="/Adm/Vagas/ConfirmDelete?id=@vaga.Id">Deletar</a>
+                    @{
+                        if(vaga.Ativa == false)
+                        {
+                            <a class="btn btn-primary btn-sm bg-success" href="/Adm/Vagas/AlterarStatus?id=@vaga.Id">
+                                <span>Retomar</span>
+                            </a>
+                        } else
+                        {
+                            <a class="btn btn-primary btn-sm bg-warning" href="/Adm/Vagas/AlterarStatus?id=@vaga.Id">
+                                <span>Pausar</span>
+                            </a>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
