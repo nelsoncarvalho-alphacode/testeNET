@@ -1,0 +1,61 @@
+﻿@page
+@model VagasForDevs.Pages.Vagas.CreateModel
+@{
+
+}
+
+
+
+<br />
+<h1>Cadastrar Vaga</h1>
+
+@if (Model.mensagemErro.Length > 0){
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.mensagemErro</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+
+
+
+<form method="POST">
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Descrição</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="vaga.Descricao"/>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Perfil</label>
+        <div class="col-sm-6">
+            <select class="form-control" asp-for="vaga.Id_Perfil">
+                <option value="">Selecione um perfil</option>
+                <option value="1">Clt</option>
+                <option value="2">Pj</option>
+                <option value="3">Freelancer</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Valor</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="vaga.Valor"/>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/" role="button">Cancelar</a>
+        </div>
+    </div>
+
+</form>

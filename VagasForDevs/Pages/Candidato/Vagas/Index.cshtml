@@ -1,0 +1,55 @@
+﻿@page
+@model VagasForDevs.Pages.Candidato.Vagas.IndexModel
+@{
+    List<int> idVagasUsuario = Model.UsuarioLogado.Candidaturas.Select(candidatura => candidatura.Id_Vaga).ToList(); 
+}
+
+
+<br />
+<h1>Lista de vagas</h1>
+<a class="btn btn-primary btn-sm bg-success" href="/Candidato/Vagas/VagasCandidatadas">Ver vagas candidatadas</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Tipo</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vaga in Model.Vagas)
+        {
+            <tr>
+                <td>@vaga.Id</td>
+                <td>
+                    @{
+                        if (vaga.Ativa){
+                            @vaga.Descricao
+                        } else
+                        {
+                            @vaga.Descricao <p>- VAGA PAUSADA</p>
+                        }
+                    }
+                </td>
+                <td>R$@vaga.Valor</td>
+                <td>@vaga.Perfil.Tipo</td>
+                <td>
+                    @{
+                        if (idVagasUsuario.Contains(@vaga.Id))
+                        {
+                            <a class="btn btn-primary btn-sm accept-policy" href="/Candidato/Vagas/Remover?id=@vaga.Id">Retirar Candidatura</a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-primary btn-sm accept-policy" href="/Candidato/Vagas/Candidatar?id=@vaga.Id">Candidatar-se</a>
+                        }
+                    }
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

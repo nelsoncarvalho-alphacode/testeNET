@@ -1,0 +1,74 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = null;
+}
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    .login-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f7f7f7;
+    }
+
+    .login-box {
+        width: 400px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+
+        .login-box h1 {
+            margin-bottom: 20px;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    .form-control {
+        border-radius: 5px;
+    }
+
+    .alert-danger {
+        margin-top: 10px;
+    }
+</style>
+
+
+
+<div class="login-container">
+    <div class="login-box">
+        <h1 class="text-center">Login</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="Email">E-mail</label>
+                <input type="email" id="Email" name="Email" class="form-control" required placeholder="Digite seu e-mail" asp-for="Usuario.Email">
+            </div>
+            <div class="form-group">
+                <label for="Senha">Senha</label>
+                <input type="password" id="Senha" name="Senha" class="form-control" required placeholder="Digite sua senha" asp-for="Usuario.Senha">
+            </div>
+            @if (ViewData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
+            }
+            <button type="submit" class="btn btn-primary btn-block">Logar</button>
+        </form>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+

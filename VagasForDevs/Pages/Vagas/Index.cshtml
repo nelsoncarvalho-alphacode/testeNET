@@ -1,0 +1,49 @@
+﻿@page
+@model VagasForDevs.Pages.Vagas.IndexModel
+@{
+}
+
+<br />
+<h1>Lista de vagas</h1>
+<a class="btn btn-primary btn-sm" href="/Vagas/Create">Adicionar vaga</a>
+<table class="table">   
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Tipo</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var vaga in Model.vagas)
+        {
+            <tr>
+                <td>@vaga.Id</td>
+                <td>@vaga.Descricao</td>
+                <td>R$@vaga.Valor</td>
+                <td>@vaga.Perfil.Tipo</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Vagas/Edit?id=@vaga.Id">Editar</a>
+                    <a class="btn btn-primary btn-sm" href="/Vagas/Delete?id=@vaga.Id">Deletar</a>
+                    <a class="btn btn-primary btn-sm" href="/Vagas/AlterarStatus?id=@vaga.Id">
+                        @{
+                            if(vaga.Ativa == false)
+                            {
+                                <span>Retomar</span>
+                            } else
+                            {
+                                <span>Pausar</span>
+                            }
+                        }
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

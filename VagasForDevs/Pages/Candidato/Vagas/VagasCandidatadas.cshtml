@@ -1,0 +1,52 @@
+﻿@page
+@using VagasForDevs.Repositories.Interfaces;
+@using VagasForDevs.Models;
+@inject IUsuarioRepository UsuarioRepository;
+
+@{
+    int idUsuarioLogado = HttpContext.Session.GetInt32("IdLogado") ?? 0;
+    Usuario usuarioLogado = UsuarioRepository.GetById(idUsuarioLogado);
+
+    List<Vaga> vagasUsuario = usuarioLogado.Candidaturas.Select(candidatura => candidatura.Vaga).ToList();
+}
+
+
+<br />
+<h1>Lista de vagas candidatadas</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Tipo</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vaga in vagasUsuario)
+        {
+            <tr>
+                <td>@vaga.Id</td>
+                <td>
+                    @{
+                        if (vaga.Ativa)
+                        {
+                            @vaga.Descricao
+                        }
+                        else
+                        {
+                            @vaga.Descricao <p>- VAGA PAUSADA</p>
+                        }
+                    }
+                </td>
+                <td>R$@vaga.Valor</td>
+                <td>@vaga.Perfil.Tipo</td>
+                <td>
+                    <a class="btn btn-primary btn-sm accept-policy" href="/Candidato/Vagas/Remover?id=@vaga.Id">Retirar Candidatura</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
